@@ -13,5 +13,6 @@ md5sums=('SKIP')
 
 package() {
 	cd "$pkgname"
-	install -m644 -D etc $pkgdir/
+	mkdir -p $pkgdir/etc
+	install -m644 -D etc/* $pkgdir/etc
 }
