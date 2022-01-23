@@ -13,6 +13,10 @@ md5sums=('SKIP')
 
 package() {
 	cd "$pkgname"
-	mkdir -p $pkgdir/etc
-	install -m644 -D etc/* $pkgdir/etc
+	install -dm755 "$pkgdir"/etc/calamares/{modules,branding/archlinuxgui/lang}
+	install -D -m644 etc/calamares/branding/archlinuxgui/lang/* "$pkgdir/etc/calamares/branding/archlinuxgui/lang"
+	install -D -m644 etc/calamares/branding/archlinuxgui/* "$pkgdir/etc/calamares/branding/archlinuxgui/"
+	install -D -m644 etc/calamares/modules/* "$pkgdir/etc/calamares/modules"
+	install -D -m755 etc/calamares/launch.sh "$pkgdir/etc/calamares/"
+	install -D -m644 etc/calamares/settings.conf "$pkgdir/etc/calamares/"
 }
