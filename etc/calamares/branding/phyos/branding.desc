@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  archlinuxgui
+componentName:  phyos
 
 
 ### WELCOME / OVERALL WORDING
@@ -124,8 +124,8 @@ strings:
     productName:         "@{NAME}"
     shortProductName:    Arch Linux
     version:             2021-07
-    #shortVersion:        
-    versionedName:       Arch Linux 
+    #shortVersion:
+    versionedName:       Arch Linux
     shortVersionedName:  Arch Linux
     bootloaderEntryName: Arch Linux
     #productUrl:          https://calamares.io/
@@ -184,7 +184,7 @@ style:
    sidebarText:          "#FFFFFF"
    sidebarTextSelect:    "#292F34"
    sidebarTextHighlight: "#00CED1"
-   #sidebarTextHighlight: "#D35400" 
+   #sidebarTextHighlight: "#D35400"
    #--strong orange
    #sidebarTextHighlight: "#9b870c"
 
@@ -220,5 +220,3 @@ slideshow:               "show.qml"
 #
 # An image slideshow does not need to have the API defined.
 slideshowAPI: 2
-
-
