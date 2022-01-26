@@ -122,10 +122,9 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "@{NAME}"
-    shortProductName:    Arch Linux
-    version:             2021-07
-    #shortVersion:
-    versionedName:       Arch Linux
+    shortProductName:	 PhyOS
+    version:             2022-01
+    versionedName:       phyOS
     shortVersionedName:  Arch Linux
     bootloaderEntryName: Arch Linux
     #productUrl:          https://calamares.io/
@@ -166,7 +165,7 @@ images:
     productIcon:         "install.png"
     productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "icon.png"
+    # productWelcome:      "icon.png"
 
 # Colors for text and background components.
 #
