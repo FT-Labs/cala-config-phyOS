@@ -2,7 +2,6 @@
  *
  *   SPDX-FileCopyrightText: 2015 Teo Mrnjavac <teo@kde.org>
  *   SPDX-FileCopyrightText: 2018 Adriaan de Groot <groot@kde.org>
- *   SPDX-FileCopyrightText: DemonKiller of Arch Linux GUI
  *   SPDX-License-Identifier: GPL-3.0-or-later
  *
  *   Calamares is Free Software: see the License-Identifier above.
@@ -28,7 +27,6 @@ Presentation
         repeat: true
         onTriggered: nextSlide()
     }
-
 
     Slide
     {
