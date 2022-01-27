@@ -162,7 +162,6 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "install.png"
     productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
     # productWelcome:      "icon.png"
