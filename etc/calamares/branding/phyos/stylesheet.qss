@@ -47,7 +47,7 @@ QPushButton { background-color: green; }
  */
 
 /*
-#mainApp { }
+mainApp { font-size: 24px }
 #sidebarApp { }
 #logoApp { }
 */

@@ -163,7 +163,7 @@ strings:
 images:
     # productBanner:       "banner.png"
     productLogo:         "logo.png"
-    productWelcome:      "logo.png"
+    productWelcome:      "icon.png"
 
 # Colors for text and background components.
 #
